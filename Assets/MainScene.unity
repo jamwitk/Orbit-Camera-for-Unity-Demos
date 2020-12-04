@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 543181174}
   - component: {fileID: 543181173}
   - component: {fileID: 543181172}
+  - component: {fileID: 543181176}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -214,6 +215,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &543181176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543181171}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39543a8d430d6a4592f6e53baaafd6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &821162079
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,6 +296,8 @@ MonoBehaviour:
   rotYAxis: 0
   rotXAxis: 0
   camSmooth: 5
+  zoomSpeedMouse: 10
+  _zoomAmountMouse: 10
 --- !u!81 &964403542
 AudioListener:
   m_ObjectHideFlags: 0
@@ -324,7 +339,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 54
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -350,7 +365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964403540}
   m_LocalRotation: {x: 0.24115065, y: -0.010313502, z: 0.012556723, w: 0.97035176}
-  m_LocalPosition: {x: -0.039, y: 3.689, z: -6.387}
+  m_LocalPosition: {x: 0.007, y: 5.244, z: -9.328}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
