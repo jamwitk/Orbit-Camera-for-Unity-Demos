@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecd3ec5a-6535-4855-8ee9-572e79265b35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/testing.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/testing.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/cameraOribt.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/cameraOribt.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Orbit-Camera-for-Unity-Demos/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Orbit-Camera-for-Unity-Demos/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Orbit-Camera-for-Unity-Demos/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Orbit-Camera-for-Unity-Demos/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Orbit-Camera-for-Unity-Demos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Orbit-Camera-for-Unity-Demos/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraRotate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraRotate.cs" afterDir="false" />
@@ -36,7 +37,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../Terrain Test/Assets/Scripts/OrbitCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraRotate.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -45,6 +45,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraTargetOrientationScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/testing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraRotate.cs" />
+        <option value="$PROJECT_DIR$/Assets/cameraOribt.cs" />
       </list>
     </option>
   </component>
@@ -61,6 +62,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -94,7 +96,11 @@
       <workItem from="1606945146619" duration="2690000" />
       <workItem from="1607013120238" duration="518000" />
       <workItem from="1607016327461" duration="9849000" />
-      <workItem from="1607106261506" duration="3640000" />
+      <workItem from="1607106261506" duration="4376000" />
+      <workItem from="1607116652773" duration="20000" />
+      <workItem from="1607116682905" duration="4134000" />
+      <workItem from="1607183298012" duration="623000" />
+      <workItem from="1608574726140" duration="668000" />
     </task>
     <servers />
   </component>
@@ -125,10 +131,22 @@
       <screen x="1428" y="0" width="1378" height="900" />
     </state>
     <state x="1883" y="317" key="#Updates/63.0.1303.768/1428.0.1378.900@1428.0.1378.900" timestamp="1607013586580" />
-    <state x="1587" y="53" width="917" height="755" key="dock-window-1" timestamp="1607115094549">
-      <screen x="1428" y="0" width="1378" height="900" />
+    <state x="215" y="29" key="SettingsEditor" timestamp="1607118248495">
+      <screen x="63" y="0" width="1303" height="768" />
     </state>
-    <state x="1587" y="53" width="917" height="755" key="dock-window-1/63.0.1303.768/1428.0.1378.900@63.0.1303.768" timestamp="1607115094549" />
+    <state x="215" y="29" key="SettingsEditor/63.0.1303.768/1428.0.1378.900@63.0.1303.768" timestamp="1607118248495" />
+    <state x="155" y="92" width="1119" height="584" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1607116629679">
+      <screen x="63" y="0" width="1303" height="768" />
+    </state>
+    <state x="155" y="92" width="1119" height="584" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/63.0.1303.768/1428.0.1378.900@63.0.1303.768" timestamp="1607116629679" />
+    <state x="439" y="103" width="987" height="714" key="dock-window-1" timestamp="1607121543990">
+      <screen x="63" y="0" width="1303" height="768" />
+    </state>
+    <state x="439" y="103" width="987" height="714" key="dock-window-1/63.0.1303.768/1428.0.1378.900@63.0.1303.768" timestamp="1607121543990" />
+    <state x="535" y="160" width="987" height="714" key="dock-window-2" timestamp="1607121543990">
+      <screen x="63" y="0" width="1303" height="768" />
+    </state>
+    <state x="535" y="160" width="987" height="714" key="dock-window-2/63.0.1303.768/1428.0.1378.900@63.0.1303.768" timestamp="1607121543990" />
     <state x="377" y="89" key="search.everywhere.popup" timestamp="1607029101579">
       <screen x="63" y="0" width="1303" height="768" />
     </state>
