@@ -1,7 +1,7 @@
 # Orbit-Camera-for-Unity-Demos
 
 How to use :
-- You have to add colliders to target objects.
+- You should add **collider** component to target objects.
 - If you wanna change target you should set gameobject's **Transform** to ```target``` variable. Example, ```CameraOrbit.target = gameObject.transform;```
 
 Info for mouse input: 
