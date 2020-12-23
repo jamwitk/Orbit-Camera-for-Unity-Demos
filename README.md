@@ -9,4 +9,4 @@ Info for mouse input:
 - Use mouse wheel to zoom in/out
 
 
-![demo-gif](https://github.com/steaklive/Orbit-Camera-for-Unity-Demos/jamwitk/master/OrbitCameraDemo.gif)
+![demo-gif](https://github.com/jamwitk/Orbit-Camera-for-Unity-Demos/blob/master/OrbitCameraDemo.gif)
