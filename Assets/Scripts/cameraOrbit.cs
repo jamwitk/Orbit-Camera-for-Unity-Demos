@@ -15,7 +15,7 @@ public class CameraOrbit : MonoBehaviour
     public float distanceMin = .5f;
     public float distanceMax = 15f;
  
-    private Rigidbody rigidbody;
+    
  
     float x = 0.0f;
     float y = 0.0f;
@@ -30,14 +30,6 @@ public class CameraOrbit : MonoBehaviour
         Vector3 angles = transform.eulerAngles;
         x = angles.y;
         y = angles.x;
- 
-        rigidbody = GetComponent<Rigidbody>();
- 
-        // Make the rigid body not change rotation
-        if (rigidbody != null)
-        {
-            rigidbody.freezeRotation = true;
-        }
     }
  
     void LateUpdate () 
